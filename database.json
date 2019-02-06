@@ -1,0 +1,60 @@
+{
+  "review": {
+    
+    "context": "Text for Context",
+
+    "pushpull": [
+      {
+        "date": "2019-02-19 18:34:22",
+        "title": "Title A",
+        "type": "push",
+        "description": "Description A"
+      },
+      {
+        "title": "Title B",
+        "type": "pull",
+        "description": "Description B",
+        "date": "2019-02-19 18:34:22"
+      }
+    ],
+
+    "efforts": [
+      {
+        "date": "2019-02-20 5:45:22",
+        "title": "Effort Title A",
+        "description": "Effort Description A",
+        "tags": [
+          {
+            "date": "2019-02-19 18:34:22",
+            "title": "Title A",
+            "type": "push",
+            "description": "Description A"
+          }
+        ]
+      }
+    ],
+
+    "impacts": [
+      {
+        "date": "2020-05-23 17:55:56",
+        "title": "Impact Title A",
+        "description": "Impact Description A",
+        "referencies": [
+          {
+            "date": "2019-02-20 5:45:22",
+            "title": "Effort Title A",
+            "description": "Effort Description A",
+            "tags": [
+              {
+                "date": "2019-02-19 18:34:22",
+                "title": "Title A",
+                "type": "push",
+                "description": "Description A"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
